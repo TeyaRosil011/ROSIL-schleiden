@@ -1,0 +1,11 @@
+import turtle # This is used to create visual graphics.
+t = turtle.Turtle()
+s = turtle.Screen()
+s.bgcolor("black") # This is for the background color.
+t.pencolor("red") # This for the color of the drawing.
+t.speed(0) # This is for the speed.
+for i in range(150):
+    t.circle(190-i,90)
+    t.lt(90)
+    t.circle(190-i,90)
+    t.lt(18)
